@@ -1,0 +1,98 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    
+    }
+ul{
+    
+    display: flex;
+    list-style: none;
+     justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    gap: 48px;
+    opacity: 0.5;
+    
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(22, 102, 35);
+}
+li span{
+    color:black;
+    opacity: 1;
+}
+section p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #7D7987;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    
+}
+
+h1 span{
+    color: #89C5CC;
+}
+.page {
+    width: 1000px;
+    margin: 65px auto 0;
+}
+
+button{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
+    width: 179px;
+    height: 56px; 
+    background: #69B99D;
+    border-radius: 4px;
+    border: 0;
+}
+
+button:hover{
+    background: #12523b;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+#balls{
+    margin-bottom: 0;
+    margin-right: 0;
+}
